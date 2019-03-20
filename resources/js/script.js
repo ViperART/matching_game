@@ -50,6 +50,7 @@ let game = {
             this.timerStart();
             this.rightMoves = 0;
             this.moves = 0;
+            this.finalTime = 0;
             this.state = 'playing';
         }
     },
